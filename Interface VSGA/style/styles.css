@@ -1,0 +1,411 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef; /* Light gray background */
+    background-image: url(../assets/imagelib.jpeg);
+    background-size: cover; /* Cover the entire viewport */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+
+.container2 {
+    min-width: 600px;
+    width: 600px;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Consistent spacing */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.password-container {
+    position: relative;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px; /* Consistent padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.password-container i {
+    position: absolute;
+    right: 10px; /* Space from the right edge */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #aaa; /* Icon color */
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Consistent padding */
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+p {
+    text-align: center;
+}
+
+.dashboard-container {
+    display: flex; /* Use flexbox for layout */
+}
+
+.sidebar {
+    width: 200px; /* Adjusted sidebar width */
+    background-color: #343a40; /* Dark background */
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px; /* Space between items */
+}
+
+.sidebar ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.main-content {
+    flex: 1; /* Take up remaining space */
+    padding: 20px; /* Add padding */
+    background-color: #f8f9fa; /* Light background */
+}
+
+h1 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Center vertically */
+    padding: 5px; /* Reduced padding for a shorter header */
+    background-color: #f8f9fa; /* Background for header */
+    border-bottom: 1px solid #ccc; /* Optional border */
+}
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info i {
+    font-size: 24px; /* Icon size */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+#current-date {
+    margin-left: 15px; /* Space before the date */
+}
+
+.boxes-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.box {
+    background-color: #007bff; /* Box background color */
+    color: white; /* Text color */
+    padding: 10px; /* Reduced padding */
+    text-align: center; /* Center text */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    height: 100px; /* Set a fixed height */
+}
+
+
+.box h3 {
+    margin: 5px 0; /* Reduced margin */
+    font-size: 18px; /* Smaller title font size */
+}
+
+.box p {
+    font-size: 20px; /* Smaller value font size */
+    font-weight: bold; /* Bold for emphasis */
+}
+
+.box i {
+    font-size: 24px; /* Reduced icon size */
+    margin-bottom: 5px; /* Space between icon and text */
+}
+
+.chart-container {
+    margin-top: 30px; /* Space above the chart */
+}
+
+.toggle-buttons {
+    margin: 10px 0;
+}
+
+.toggle-buttons button {
+    padding: 8px 12px; /* Adjust size as needed */
+    margin-right: 5px; /* Space between buttons */
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    cursor: pointer;
+}
+
+.toggle-buttons button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-container {
+    display: flex; /* Use flexbox for layout */
+}
+
+.sidebar {
+    width: 200px; /* Adjusted sidebar width */
+    background-color: #343a40; /* Dark background */
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px; /* Space between items */
+}
+
+.sidebar ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.main-content {
+    flex: 1; /* Take up remaining space */
+    padding: 20px; /* Add padding */
+    background-color: #f8f9fa; /* Light background */
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Center vertically */
+    padding: 10px; /* Padding for spacing */
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info i {
+    font-size: 24px; /* Icon size */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.notification {
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text */
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    display: none; /* Hidden by default */
+}
+
+.boxes-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.box {
+    background-color: #007bff; /* Box background color */
+    color: white; /* Text color */
+    padding: 15px; /* Reduced padding */
+    text-align: center; /* Center text */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.box h3 {
+    margin: 5px 0; /* Reduced margin */
+    font-size: 18px; /* Smaller title font size */
+}
+
+.box p {
+    font-size: 20px; /* Smaller value font size */
+    font-weight: bold; /* Bold for emphasis */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px; /* Adjusted sidebar width */
+    background-color: #343a40; /* Dark background */
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+#current-date {
+    margin-left: 15px;
+}
+
+.boxes-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.box {
+    background-color: #007bff;
+    color: white;
+    padding: 10px; /* Adjusted padding */
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box h3 {
+    margin: 5px 0;
+    font-size: 16px; /* Adjusted font size */
+}
+
+.box p {
+    font-size: 20px; /* Kept same */
+    font-weight: bold;
+}
+
+.chart-notification-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.chart-container {
+    flex: 3; /* 3/4 width */
+    margin-right: 20px; /* Space between chart and notification */
+}
+
+.notification-container {
+    flex: 1; /* 1/4 width */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notification-container h3 {
+    margin-top: 0;
+}
